@@ -1,5 +1,5 @@
 # CarRace
-Site that lets you put two cars and sees who would win a race. Results based on 0-60 speeds
+Site that lets you put two cars and sees who would win a race. Results based on 0-60 speeds. Still working on adding cars.
 
 
 
