@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+h1 {
+    color: #212121;
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.selection {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 480px;
+    margin-bottom: 2rem;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    appearance: none;
+    background-color: #fff;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 1.5rem;
+}
+
+button {
+    background-color: #6200ee;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+#results {
+    font-size: 1.5rem;
+    color: #212121;
+    font-weight: 300;
+    text-align: center;
+    width: 100%;
+    max-width: 480px;
+}
+
+
+#github-link img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease; 
+}
+
+#github-link a:hover img {
+    transform: scale(1.1); 
+}
+
+
+#github-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#github-link img {
+    width: 50px;
+    height: 50px;
+}
